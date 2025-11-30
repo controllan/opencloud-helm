@@ -3,9 +3,9 @@
 > This repository is an fork of the original [opencloud-eu/helm](https://github.com/opencloud-eu/helm/) repository which has been archieved.
 > This repository is therefore not connected in anyway to the opencloud company etc. and there are no guarantees regarding security or any other aspects. The helm charts of this repository are not safe for production use.
 > 
-# Community Helm Charts
+# Community Helm Chart
 
-Welcome to the **OpenCloud Helm Charts** repository! This repository is intended as a community-driven space for developing and maintaining Helm charts for deploying OpenCloud on Kubernetes.
+Welcome to the **OpenCloud Helm Chart** repository! This repository is intended as a community-driven space for developing and maintaining Helm charts for deploying OpenCloud on Kubernetes.
 **Community Maintained** This repository is **community-maintained** and **not officially supported by OpenCloud GmbH**. Use at your own risk, and feel free to contribute to improve the project!
 
 ## 📑 Table of Contents
@@ -15,10 +15,8 @@ Welcome to the **OpenCloud Helm Charts** repository! This repository is intended
 - [Contributing](#-contributing)
 - [Prerequisites](#prerequisites)
 - [Version Stability Notice](#⚠️-version-stability-notice)
-- [Available Charts](#-available-charts)
+- [Available Chart](#-available-chart)
   - [Production Chart](#production-chart-chartsopencloud)
-  - [Microservices Chart](#microservices-chart-chartsopencloud-microservices)
-  - [Development Chart](#development-chart-chartsopencloud-dev)
 - [License](#-license)
 - [Community Maintained](#community-maintained)
 
@@ -68,9 +66,9 @@ The current maintainers and reviewers are listed in [MAINTAINERS.md](./MAINTAINE
 
 We recommend pinning to specific chart versions and thoroughly testing updates before applying them.
 
-## 📦 Available Charts
+## 📦 Available Chart
 
-This repository contains the following charts:
+This repository contains the following chart:
 
 ### Production Chart (`charts/opencloud`)
 
@@ -83,32 +81,6 @@ The complete OpenCloud deployment with all components for production use:
 - Full Gateway API integration
 
 [View Production Chart Documentation](./charts/opencloud/README.md)
-
-### Microservices Chart (`charts/opencloud-microservices`)
-
-**Architecture**: Pod-per-service
-- Every single service in its own pod
-- Full Gateway API integration
-- NATS service discovery required
-- Keycloak for authentication
-- MinIO for object storage
-- Integrated OpenLDAP 
-- Integrated ClamAV
-- Posix support
-- Helm and Timoni Chart for FluxCD
-- Document editing with Collabora and/or OnlyOffice
-- Slightly higher resource usage due to microservices pod overhead
-- See [architectural warnings](./charts/opencloud-microservices/README.md#architectural-considerations)
-
-### Development Chart (`charts/opencloud-dev`)
-
-A lightweight single-container deployment for development and testing:
-
-- Simplified deployment (single Docker container)
-- Minimal resource requirements
-- Quick setup for testing
-
-[View Development Chart Documentation](./charts/opencloud-dev/README.md)
 
 ## 📜 License
 
