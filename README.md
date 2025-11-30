@@ -1,5 +1,5 @@
 > [!NOTE]
-> ## This repository has been archived
+> ## This is an unofficial / forked repository
 > This repository is an fork of the original [opencloud-eu/helm](https://github.com/opencloud-eu/helm/) repository which has been archieved.
 > This repository is therefore not connected in anyway to the opencloud company etc. and there are no guarantees regarding security or any other aspects. The helm charts of this repository are not safe for production use.
 > 
