@@ -26,16 +26,6 @@ This repository is created to **welcome contributions from the community**. It d
 
 OpenCloud is a cloud collaboration platform that provides file sync and share, document collaboration, and more. This Helm chart deploys OpenCloud with Keycloak for authentication, MinIO for object storage, and multiple options for document editing including Collabora and OnlyOffice.
 
-## 💬 Community
-
-Join our Matrix chat for discussions about OpenCloud Helm Charts:
-- [OpenCloud Helm on Matrix](https://matrix.to/#/%23opencloud-helm:matrix.org)
-
-For general OpenCloud discussions:
-- [OpenCloud on Matrix](https://matrix.to/#/%23opencloud:matrix.org)
-- [OpenCloud on Mastodon](https://social.opencloud.eu/@OpenCloud)
-- [GitHub Discussions](https://github.com/orgs/opencloud-eu/discussions)
-
 ## 💡 Contributing
 
 We encourage contributions from the community! This repository follows a community-driven development model with defined roles and responsibilities.
