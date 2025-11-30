@@ -1,11 +1,8 @@
-> [!CAUTION]
+> [!NOTE]
 > ## This repository has been archived
-> Due to the high amount of AI generated contributions and poor maintenance, this repository has been archived.
->  
-> For **production-ready Helm charts** designed for **mission-critical** workloads, please use the enterprise offering, available with a [business subscription](https://opencloud.eu/en/product/service-and-support).  
->  
-> To access **production-ready helm charts** get in touch with us via [contact form](https://opencloud.eu/en/contact-us) or Email [sales@opencloud.eu](mailto:sales@opencloud.eu).
-
+> This repository is an fork of the original [opencloud-eu/helm](https://github.com/opencloud-eu/helm/) repository which has been archieved.
+> This repository is therefore not connected in anyway to the opencloud company etc. and there are no guarantees regarding security or any other aspects. The helm charts of this repository are not safe for production use.
+> 
 # Community Helm Charts
 
 Welcome to the **OpenCloud Helm Charts** repository! This repository is intended as a community-driven space for developing and maintaining Helm charts for deploying OpenCloud on Kubernetes.
